@@ -1,3 +1,9 @@
+# revision 17076
+# category Package
+# catalog-ctan /macros/latex/contrib/bold-extra
+# catalog-date 2010-02-23 16:09:16 +0100
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-bold-extra
 Version:	0.1
 Release:	1
@@ -40,6 +46,7 @@ required is selected by a package option.
 %{_texmfdistdir}/tex/latex/bold-extra/bold-extra.sty
 %doc %{_texmfdistdir}/doc/latex/bold-extra/bold-extra.pdf
 %doc %{_texmfdistdir}/doc/latex/bold-extra/bold-extra.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ required is selected by a package option.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
