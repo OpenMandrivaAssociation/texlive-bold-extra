@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-bold-extra
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	Use bold small caps and typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bold-extra
