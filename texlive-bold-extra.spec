@@ -5,8 +5,8 @@ Summary:	Use bold small caps and typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bold-extra
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.r17076.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.doc.r17076.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
