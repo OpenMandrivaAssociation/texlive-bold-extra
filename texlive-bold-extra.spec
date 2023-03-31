@@ -1,6 +1,6 @@
 Name:		texlive-bold-extra
 Version:	17076
-Release:	1
+Release:	2
 Summary:	Use bold small caps and typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bold-extra
