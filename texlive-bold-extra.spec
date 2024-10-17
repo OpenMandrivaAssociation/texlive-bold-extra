@@ -3,7 +3,7 @@ Version:	17076
 Release:	2
 Summary:	Use bold small caps and typewriter fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bold-extra
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bold-extra
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bold-extra.doc.r%{version}.tar.xz
